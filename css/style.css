@@ -40,7 +40,7 @@ body {
     height: calc(100vh - 196px);
     min-height: 677px;
 }
-.cover {
+.section-main__cover {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.3);
 }
@@ -53,6 +53,7 @@ body {
     flex-direction: column;
     justify-content: center;
     margin: 0 15px;
+    z-index: 10;
 }
 .section-main__title {
     font-size: 3rem;
